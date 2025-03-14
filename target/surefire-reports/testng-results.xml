@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-14T00:50:16 CDT" name="Suite" finished-at="2025-03-14T00:50:21 CDT" duration-ms="4885">
+  <suite started-at="2025-03-14T00:52:55 CDT" name="Suite" finished-at="2025-03-14T00:52:59 CDT" duration-ms="4091">
     <groups>
     </groups>
-    <test started-at="2025-03-14T00:50:16 CDT" name="Test" finished-at="2025-03-14T00:50:21 CDT" duration-ms="4885">
+    <test started-at="2025-03-14T00:52:55 CDT" name="Test" finished-at="2025-03-14T00:52:59 CDT" duration-ms="4091">
       <class name="test.HomePageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.HomePageTest@2118cddf]" started-at="2025-03-14T00:50:16 CDT" name="setup" finished-at="2025-03-14T00:50:19 CDT" duration-ms="3549" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.HomePageTest@2118cddf]" started-at="2025-03-14T00:52:55 CDT" name="setup" finished-at="2025-03-14T00:52:58 CDT" duration-ms="3046" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="navigateToAboutUsPage()[pri:0, instance:test.HomePageTest@2118cddf]" started-at="2025-03-14T00:50:19 CDT" name="navigateToAboutUsPage" finished-at="2025-03-14T00:50:20 CDT" duration-ms="985" status="PASS">
+        <test-method signature="navigateToAboutUsPage()[pri:0, instance:test.HomePageTest@2118cddf]" started-at="2025-03-14T00:52:58 CDT" name="navigateToAboutUsPage" finished-at="2025-03-14T00:52:59 CDT" duration-ms="819" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToAboutUsPage -->
-        <test-method signature="verifyHomePageTitle()[pri:0, instance:test.HomePageTest@2118cddf]" started-at="2025-03-14T00:50:19 CDT" name="verifyHomePageTitle" finished-at="2025-03-14T00:50:19 CDT" duration-ms="41" status="FAIL">
+        <test-method signature="verifyHomePageTitle()[pri:0, instance:test.HomePageTest@2118cddf]" started-at="2025-03-14T00:52:58 CDT" name="verifyHomePageTitle" finished-at="2025-03-14T00:52:58 CDT" duration-ms="19" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Title mismatch expected [About us – RNS Equity] but found [RNS Equity]]]>
@@ -27,7 +27,7 @@ at org.testng.Assert.failNotEquals(Assert.java:1578)
 at org.testng.Assert.assertEqualsImpl(Assert.java:150)
 at org.testng.Assert.assertEquals(Assert.java:132)
 at org.testng.Assert.assertEquals(Assert.java:656)
-at test.HomePageTest.verifyHomePageTitle(HomePageTest.java:21)
+at test.HomePageTest.verifyHomePageTitle(HomePageTest.java:20)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -47,7 +47,7 @@ at java.base/java.lang.Thread.run(Thread.java:1570)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePageTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.HomePageTest@2118cddf]" started-at="2025-03-14T00:50:20 CDT" name="tearDown" finished-at="2025-03-14T00:50:21 CDT" duration-ms="312" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.HomePageTest@2118cddf]" started-at="2025-03-14T00:52:59 CDT" name="tearDown" finished-at="2025-03-14T00:52:59 CDT" duration-ms="202" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
