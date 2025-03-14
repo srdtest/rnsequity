@@ -5,9 +5,9 @@
     <classes>
       <class name="test.HomePageTest">
         <methods>
-          <include name="tearDown"/>
           <include name="setup"/>
           <include name="verifyHomePageTitle"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- test.HomePageTest -->
     </classes>
