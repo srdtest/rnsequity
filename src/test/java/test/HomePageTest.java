@@ -14,7 +14,7 @@ public class HomePageTest extends Base {
 	
     @Test(priority=0)
     public void verifyHomePageTitle() {
-        String expectedTitle = "About us – RNS Equity";
+        String expectedTitle = "RNS Equity";
         String actualTitle = driver.getTitle();
         System.out.println("actual titile is "+actualTitle);
         Assert.assertEquals(actualTitle, expectedTitle, "Title mismatch");
