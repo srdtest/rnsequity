@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 7.506 s <<< FAILURE! -- in TestSuite
-test.HomePageTest.verifyHomePageTitle -- Time elapsed: 0.097 s <<< FAILURE!
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 4.575 s <<< FAILURE! -- in TestSuite
+test.HomePageTest.verifyHomePageTitle -- Time elapsed: 0.028 s <<< FAILURE!
 java.lang.AssertionError: Title mismatch expected [About us – RNS Equity] but found [RNS Equity]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)

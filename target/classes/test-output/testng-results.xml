@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-14T00:46:35 CDT" name="Default suite" finished-at="2025-03-14T00:46:39 CDT" duration-ms="4405">
+  <suite started-at="2025-03-14T00:49:59 CDT" name="Default suite" finished-at="2025-03-14T00:50:05 CDT" duration-ms="5779">
     <groups>
     </groups>
-    <test started-at="2025-03-14T00:46:35 CDT" name="Default test" finished-at="2025-03-14T00:46:39 CDT" duration-ms="4405">
-      <class name="test.Base">
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.Base@759d26fb]" started-at="2025-03-14T00:46:35 CDT" name="setup" finished-at="2025-03-14T00:46:39 CDT" duration-ms="4025" status="PASS">
+    <test started-at="2025-03-14T00:49:59 CDT" name="Default test" finished-at="2025-03-14T00:50:05 CDT" duration-ms="5779">
+      <class name="test.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.HomePageTest@3d5c822d]" started-at="2025-03-14T00:49:59 CDT" name="setup" finished-at="2025-03-14T00:50:04 CDT" duration-ms="4660" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="title()[pri:0, instance:test.Base@759d26fb]" started-at="2025-03-14T00:46:39 CDT" name="title" finished-at="2025-03-14T00:46:39 CDT" duration-ms="21" status="PASS">
+        <test-method signature="navigateToAboutUsPage()[pri:0, instance:test.HomePageTest@3d5c822d]" started-at="2025-03-14T00:50:04 CDT" name="navigateToAboutUsPage" finished-at="2025-03-14T00:50:05 CDT" duration-ms="817" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- title -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.Base@759d26fb]" started-at="2025-03-14T00:46:39 CDT" name="tearDown" finished-at="2025-03-14T00:46:39 CDT" duration-ms="316" status="PASS">
+        </test-method> <!-- navigateToAboutUsPage -->
+        <test-method signature="verifyHomePageTitle()[pri:0, instance:test.HomePageTest@3d5c822d]" started-at="2025-03-14T00:50:05 CDT" name="verifyHomePageTitle" finished-at="2025-03-14T00:50:05 CDT" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.HomePageTest@3d5c822d]" started-at="2025-03-14T00:50:05 CDT" name="tearDown" finished-at="2025-03-14T00:50:05 CDT" duration-ms="248" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- test.Base -->
+      </class> <!-- test.HomePageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
