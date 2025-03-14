@@ -19,7 +19,7 @@
     <testng.version>7.8.0</testng.version>
     <surefire.version>3.2.5</surefire.version>
     <failsafe.version>3.2.5</failsafe.version>
-     <selenium-java.version>4.10.0</selenium-java.version>
+     <selenium-java.version>4.16.0</selenium-java.version>
      
     
   </properties>
@@ -27,10 +27,23 @@
 
 
   <dependencies>
+  <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-devtools -->
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-devtools-v86 -->
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-devtools-v119 -->
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-devtools-v123 -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-devtools-v123</artifactId>
+    <version>4.21.0</version>
+</dependency>
+
+
+
+
    <dependency>
     <groupId>io.github.bonigarcia</groupId>
     <artifactId>webdrivermanager</artifactId>
-    <version>5.9.3</version>
+    <version>5.6.3</version>
 </dependency>
     <!-- TestNG (replace JUnit 3.x) -->
     <dependency>
