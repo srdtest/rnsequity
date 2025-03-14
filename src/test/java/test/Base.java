@@ -30,11 +30,7 @@ package test;
 	        }
 	    }
 	    
-	    
-	   public void title() {
-		   
-		   System.out.println(driver.getTitle());
-	   }
+	   
 	}
 
 
