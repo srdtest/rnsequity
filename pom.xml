@@ -30,11 +30,13 @@
   <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-devtools -->
 <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-devtools-v86 -->
 <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-devtools-v119 -->
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-devtools-v123 -->
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
-    <artifactId>selenium-devtools-v119</artifactId>
-    <version>4.18.0</version>
+    <artifactId>selenium-devtools-v123</artifactId>
+    <version>4.21.0</version>
 </dependency>
+
 
 
 
