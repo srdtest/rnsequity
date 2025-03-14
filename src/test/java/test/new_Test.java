@@ -9,5 +9,7 @@ public class new_Test {
 	public void test2() {
 		System.out.println("this is different test");
 		System.out.println("this is different test2");
+		System.out.println("this is different test");
+		System.out.println("this is different test2");
 	}
 }
